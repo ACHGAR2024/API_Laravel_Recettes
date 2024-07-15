@@ -1,0 +1,419 @@
+{
+    "info": {
+        "name": "Laravel API",
+        "description": "Postman collection for Laravel API",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "User",
+            "item": [
+                {
+                    "name": "generated::T1NxT4S1JMD4ziyD",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/user",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "user"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Recettes",
+            "item": [
+                {
+                    "name": "recettes.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recettes",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recettes"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recettes.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recettes",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recettes"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recettes.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recettes\/{recette}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recettes",
+                                "{recette}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recettes.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recettes\/{recette}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recettes",
+                                "{recette}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recettes.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recettes\/{recette}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recettes",
+                                "{recette}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Ingredients",
+            "item": [
+                {
+                    "name": "ingredients.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/ingredients",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "ingredients"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "ingredients.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/ingredients",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "ingredients"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "ingredients.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/ingredients\/{ingredient}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "ingredients",
+                                "{ingredient}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "ingredients.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/ingredients\/{ingredient}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "ingredients",
+                                "{ingredient}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "ingredients.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/ingredients\/{ingredient}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "ingredients",
+                                "{ingredient}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Recette-ingredients",
+            "item": [
+                {
+                    "name": "recette-ingredients.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recette-ingredients",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recette-ingredients"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recette-ingredients.create",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recette-ingredients\/create",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recette-ingredients",
+                                "create"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recette-ingredients.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recette-ingredients",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recette-ingredients"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recette-ingredients.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recette-ingredients\/{recette_ingredient}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recette-ingredients",
+                                "{recette_ingredient}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recette-ingredients.edit",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recette-ingredients\/{recette_ingredient}\/edit",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recette-ingredients",
+                                "{recette_ingredient}",
+                                "edit"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recette-ingredients.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recette-ingredients\/{recette_ingredient}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recette-ingredients",
+                                "{recette_ingredient}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "recette-ingredients.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/recette-ingredients\/{recette_ingredient}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "recette-ingredients",
+                                "{recette_ingredient}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
